@@ -14,7 +14,6 @@ function App() {
    setInputVal("");
    
    }
-   
  
   }
   console.log(todos)
