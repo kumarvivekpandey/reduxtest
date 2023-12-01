@@ -27,7 +27,7 @@ function App() {
     <div className="App">
      <h1> toDo App</h1>
      <input type="text" placeholder="enter the text" value={value} onChange={writeTodo}/>
-     <button className='button' onClick={addtodo}>+</button>
+     <button type="submit" className='button' onClick={addtodo}>+</button>
      <div className="conatainer">
 
      {
