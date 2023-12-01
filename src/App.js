@@ -31,13 +31,13 @@ function App() {
   return (
     <div className="App">
       <h1>ToDo App</h1>
-      <input
-  type="text"
-  placeholder="Enter the text"
-  value={value}
-  onChange={writeTodo}
-  onKeyPress={handleKeyPress}  {/* Fix the typo here */}
-/>
+     <input
+        type="text"
+        placeholder="Enter the text"
+        value={value}
+        onChange={writeTodo}
+        onKeyPress={handleKeyPress}
+      />
 
       <button type="submit" className="button" onClick={addtodo}>
         +
