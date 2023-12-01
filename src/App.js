@@ -32,12 +32,13 @@ function App() {
     <div className="App">
       <h1>ToDo App</h1>
       <input
-        type="text"
-        placeholder="Enter the text"
-        value={value}
-        onChange={writeTodo}
-        onKeyPress={handleKeyPress}
-      />
+  type="text"
+  placeholder="Enter the text"
+  value={value}
+  onChange={writeTodo}
+  onKeyPress={handleKeyPress}  {/* Fix the typo here */}
+/>
+
       <button type="submit" className="button" onClick={addtodo}>
         +
       </button>
